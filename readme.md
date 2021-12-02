@@ -11,6 +11,7 @@
   ## Description  
   A book search app that allows users to search for books and create an account that can be logged back into at a later point. Logged in users are able to save books to a favorites list that can be viewed seperately. 
 
+![snapshot1](https://raw.githubusercontent.com/TylerBYeager/book-search-engine/main/images/snapshot1.png)
   ## Code Snippets
   Here are some code snippets and what they accomplished. This first snippet is found within server.js within the server directory. This bit of code is what set the app to use ApolloServer and its associated typeDefs, resolvers, and middleware on the front end. 
   ```
@@ -116,6 +117,8 @@
 
   ## Usage
   This app can be used by user's to search a plethora of books, read a brief plot synopsis of the book, and save their favorites to a list that can be viewed later. 
+  
+  ![snapshot1](https://raw.githubusercontent.com/TylerBYeager/book-search-engine/main/images/snapshot2.png)
   
   ## Built With
   * [JAVASCRIPT](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
