@@ -6,6 +6,7 @@ const resolvers = {
     
     Query: {
         me: async (parent, args, context) => {
+            console.log(context.user);
             if (context.user) {
                 const userData = await User.findOne({})
                 .select("-_v -password")
@@ -59,6 +60,7 @@ const resolvers = {
         },
 
         removeBook: async (parent, args, context) => {
+            console.log(context.user)
             if (context.user) {
                 const updatedUser = await User.findOneAndUpdate(
                     { _id: context.user._id },

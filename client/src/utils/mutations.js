@@ -67,7 +67,7 @@ mutation removeBook($bookId: ID!) {
             bookId
             authors
             description
-            tite
+            title
             image
             link
         }
